@@ -1,8 +1,8 @@
 # LSSS utilities
 Python library for adding utilities in  LSSS. 
 
-## Initiatlisation
-To enable the functinoalty in LSSS follow these steps
+## Initialisation
+To enable the functionality in LSSS follow these steps
 1. Go to "LSSS configuration" and change to "Adminstrator mode"
 2. Turn on incubator
 3. Go to "LSSS configuration" -> "Application configuration" -> "Plugins" and tick "LSSS server"
@@ -10,13 +10,13 @@ To enable the functinoalty in LSSS follow these steps
 5. Test that the server is running by clicking on "Open web page". Here you will also find the API documentation.
 
 ## Installation 
-1. Download zip file
-1. Place it somewhere
-1. Restart LSSS
+1. Download zip file of the repository
+1. Install it using the LSSS 'install package' option
+1. Associate actions in the package with menu items, key-presses, or toolbar buttons
 1. Enjoy
 
-# Functions
-This is the list of current utilities
+# Actions
+1. Demo1 (shows a dialog box that gives the duration of the visible pelagic echogram)
 
 ## Add schools from external interpretation masks
 TBA
