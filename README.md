@@ -5,7 +5,7 @@ Python library for adding utilities in  LSSS. This is collection of smaller feat
 To enable the functionality in LSSS follow these steps
 1. Go to "LSSS configuration" and change to "Adminstrator mode"
 2. Turn on the incubator feature in LSSS
-    1. Set the JAVA_OPTS environment variable to include `-Dno.marec.incubator=true`
+    1. Set the JAVA_OPTS environment variable to include `"-Dno.marec.incubator=true"^`. This can be achieved by adding the line to the  `\Marec\LSSS 2.6.0\lsss\LSSS.bat` file, under the block starting with `"%JAVA%" %JAVA_OPTS%`  above the `no.imr.lsss.main.LsssMain %*` line.
     1. Restart LSSS
 3. Go to "LSSS configuration" -> "Application configuration" -> "Plugins" and tick "LSSS server" & "LSSS incubator"
 3. Restart LSSS
