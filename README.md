@@ -1,5 +1,5 @@
 # LSSS utilities
-Python library for adding utilities in  LSSS. 
+Python library for adding utilities in  LSSS. This is collection of smaller features that we created and have made available. They can be used as is, or used as templates for your own functions.
 
 ## Initialisation
 To enable the functionality in LSSS follow these steps
@@ -16,6 +16,7 @@ To enable the functionality in LSSS follow these steps
 1. Enjoy
 
 # Actions
+## Demo 1
 1. Demo1 (shows a dialog box that gives the duration of the visible pelagic echogram)
 
 ## Add schools from external interpretation masks
