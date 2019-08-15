@@ -4,9 +4,10 @@ Python library for adding utilities in  LSSS. This is collection of smaller feat
 ## Initialisation
 To enable the functionality in LSSS follow these steps
 1. Go to "LSSS configuration" and change to "Adminstrator mode"
-2. Turn on the incubator feature in LSSS
-    1. Set the JAVA_OPTS environment variable to include `"-Dno.marec.incubator=true"^`. This can be achieved by adding the line to the  `\Marec\LSSS 2.6.0\lsss\LSSS.bat` file, under the block starting with `"%JAVA%" %JAVA_OPTS%`  above the `no.imr.lsss.main.LsssMain %*` line.
-    1. Restart LSSS
+2. Turn on the incubator feature in LSSS. This requires adding `-Dno.marec.incubator=true` to the JAVA_OPTS environment variable. There are two ways to do this:
+    * Adding `"-Dno.marec.incubator=true"^` in the  `\Marec\LSSS 2.6.0\lsss\LSSS.bat` file, under the block starting with `"%JAVA%" %JAVA_OPTS%` above the `no.imr.lsss.main.LsssMain %*` line (every time you install/upgrade LSSS you will have to do this again), OR
+    * Setting the variable via the operating system. The procedure varies with your operating system and version. For Windows 10, open the Control Panel, choose 'User Accounts', then 'Change my environment variables', then edit the JAVA_OPTS variable to include `-Dno.marec.incubator=true`. If there are already items in that variable, separate them with a semicolon.
+    * Restart LSSS
 3. Go to "LSSS configuration" -> "Application configuration" -> "Plugins" and tick "LSSS server" & "LSSS incubator"
 3. Restart LSSS
 4. Go to "LSSS configuration" -> "Application configuration" -> "Miscellaneous" -> "LSSS server" and tick "Start LSSS scritping server"
