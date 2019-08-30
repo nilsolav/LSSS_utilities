@@ -15,13 +15,17 @@ To enable the functionality in LSSS follow these steps
 
 ## Installation 
 1. Download zip file of the repository (https://github.com/nilsolav/LSSS_utilities/archive/master.zip)
-1. Install it using the "LSSS configuration" -> "Application configuration" -> "Packages" dialog and choose to install from a zip file.
+1. Install it using the "LSSS configuration" -> "Application configuration" -> "Packages" dialog and choose to install from a zip file. The package will be installed under your user directory `\.ApplicationData\lsss\config\packagesConfig\packages\LSSS_utilities-master`.
+1. IMPORTANT: The installer place the file under the subfolder `LSSS_utilities`. You need to copy the python files one directory level up. This wil be fixed in future versions.
 1. Associate actions in the package with menu items, key-presses, or toolbar buttons
 1. Enjoy
 
 # Actions
 ## Demo 1
 1. Demo1 (shows a dialog box that gives the duration of the visible pelagic echogram)
+Dependencies
+   1. `tkinter`
+   1. `humanfriendly`
 
-## Add schools from external interpretation masks
+## Impor Add schools from external interpretation masks
 TBA
