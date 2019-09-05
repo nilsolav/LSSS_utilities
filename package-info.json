@@ -3,6 +3,8 @@
   "version" : "0.1",
   "callbacks" : [ ],
   "keyStrokes" : [ ],
-  "toolbarButtons" : [ ],
+  "toolbarButtons" : [ {
+    "actionId" : "Import scrutiny files"
+  } ],
   "menus" : [ ]
 }
